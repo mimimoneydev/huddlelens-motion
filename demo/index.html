@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>huddlelens-motion demo</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <p class="eyebrow">HUDDLELENS MOTION · LOCAL ONLY</p>
+      <h1>Movement scoring<br><em>without surveillance.</em></h1>
+      <p>Move side to side on camera, use the buttons, or press the left and right D-pad keys. Frames are reduced to 96×54 pixels in memory and never stored or uploaded.</p>
+      <div class="privacy"><span></span><b id="privacy-state">Camera off</b><small>No video leaves this browser</small></div>
+    </section>
+    <section class="card">
+      <div class="stage"><video id="camera" playsinline muted></video><div class="silhouette" id="silhouette">↔</div><canvas id="frames" hidden></canvas></div>
+      <div class="score"><span><b id="count">0</b> / <span id="target">12</span></span><div><i id="progress"></i></div><strong id="status">Alternate left and right</strong></div>
+      <div class="controls">
+        <button id="left" aria-label="Score a left movement">← Left</button>
+        <button class="primary" id="camera-button">Enable camera</button>
+        <button id="right" aria-label="Score a right movement">Right →</button>
+      </div>
+      <button class="reset" id="reset">Reset score</button>
+    </section>
+  </main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

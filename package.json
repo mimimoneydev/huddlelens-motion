@@ -1,0 +1,18 @@
+{
+  "name": "huddlelens-motion",
+  "version": "0.1.0",
+  "description": "Privacy-first on-device camera and D-pad movement scoring for television and accessibility apps.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src", "demo", "docs", "LICENSE", "README.md"],
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo/server.mjs",
+    "check": "npm test && npm pack --dry-run"
+  },
+  "keywords": ["fire-tv", "television", "accessibility", "motion-detection", "privacy", "d-pad"],
+  "license": "MIT",
+  "engines": {"node": ">=20"},
+  "repository": {"type": "git", "url": "git+https://github.com/OWNER/huddlelens-motion.git"}
+}
