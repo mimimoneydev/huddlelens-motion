@@ -101,7 +101,7 @@ The test suite covers direction detection, malformed frames, background changes,
 
 ## Origin and impact
 
-This library was extracted from HuddleLens, an accessible live-sports companion for Fire TV. It is published as an additional open-source project so other TV, education, rehabilitation, and family-experience developers can reuse the privacy-first input layer without adopting the rest of HuddleLens.
+This library was extracted from [HuddleLens](https://github.com/mimimoneydev/HuddleLens), an accessible live-sports companion for Fire TV. It is published as an additional open-source project so other TV, education, rehabilitation, and family-experience developers can reuse the privacy-first input layer without adopting the rest of HuddleLens.
 
 ## License
 

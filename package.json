@@ -14,5 +14,7 @@
   "keywords": ["fire-tv", "television", "accessibility", "motion-detection", "privacy", "d-pad"],
   "license": "MIT",
   "engines": {"node": ">=20"},
-  "repository": {"type": "git", "url": "git+https://github.com/OWNER/huddlelens-motion.git"}
+  "repository": {"type": "git", "url": "git+https://github.com/mimimoneydev/huddlelens-motion.git"},
+  "homepage": "https://github.com/mimimoneydev/huddlelens-motion#readme",
+  "bugs": {"url": "https://github.com/mimimoneydev/huddlelens-motion/issues"}
 }
